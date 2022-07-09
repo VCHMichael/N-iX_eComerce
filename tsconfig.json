@@ -1,0 +1,22 @@
+// prettier-ignore
+{
+  "extends": "@tsconfig/react-native/tsconfig.json", 
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["./*"],
+      "hooks": ["hooks/*"],
+      "helpers": ["helpers/*"],
+      "navigation": ["navigation/*"],
+      "store": ["store/*"],
+      "components": ["components/*"],
+      "utils": ["utils/*"],
+      "screens": ["screens/*"],
+      "model": ["model/*"],
+      "static": ["static/*"],
+      "net": ["net/*"],
+      "UI": ["UI/*"]
+  },                 
+  }
+}
